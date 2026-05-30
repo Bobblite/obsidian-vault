@@ -79,6 +79,150 @@ Full-stack: Foundation Models → Agent Apps → Cloud Native → Services → S
 
 ---
 
+## Exhibition Floor — Booth/Product Details
+
+### Booth 1: Enterprise-Grade One-Stop Model-as-a-Service Platform (OpenTrek)
+- **Company:** Alibaba Cloud
+- **Banner:** "OpenTrek: On-premises AI Toolchain"
+- **Product:** APSARA STACK — hybrid cloud AI deployment
+
+**Architecture layers visible:**
+
+1. **Hybrid Cloud AI Gateway** (agent runtime layer)
+   - Inference traffic ingress
+   - Containerized authentication hosting
+   - Credential Sandbox — sandbox isolation
+   - Sparse scheduling → higher agent density
+   - Security: "AI-native production, makes all safer for enterprise"
+
+2. **Agent Development** section
+   - Enterprise-class knowledge base
+   - Full stack agent development paradigm
+   - Skills Hub
+   - Self-evolving memory system
+   - Tagline: "Efficiency: fast launch, fast iteration, fast route"
+
+3. **Agent Operation (Agent DAM)**
+   - Convenient hosting
+   - End-to-end monitoring
+   - Intelligent DAM
+   - Tagline: "Usability: manageable and customizable agents"
+
+4. **Multimodal Data Knowledge Engine** (left column)
+   - Multimodal Data Management
+   - Multimodal Data Processing
+   - Knowledge System Building
+   - Multimodal Data Retrieval
+
+5. **Model Services** (right column)
+   - High-performance inference
+   - Model fine-tuning
+   - Intelligent scheduling
+   - Business-exclusive Models
+
+**Deployment options:** APSARA STACK | AI STACK | Physical Machine | Virtual Machine
+
+**Second slide:** "AI for AI: [title cut off] for Public"
+- Use case: "Official Document Writing"
+- "AI Security" subsection
+- Referenced: "PRI Coding"
+- Referenced: "Alibaba Cloud Public Cloud / AI Infra"
+
+---
+
+### Booth 2: CDE Agent — Unified AI Digital Workspace for Enterprises
+- **Product:** CDE Agent (Cloud Development Environment Agent)
+- **Tagline:** Unified AI Digital Workspace for Enterprises
+
+**Three challenges addressed:**
+
+1. **High Ent. AI Deployment Barrier**
+   - Self-built Agent environments: complex setup, heavy account configuration, slow deployment
+
+2. **Unauthorized Data Access Risks**
+   - Agent permission boundaries hard to enforce → risk of access beyond employee-granted data privileges
+
+3. **AI Output Sharing Gap**
+   - AI-generated files hard to share across devices → requires external tools
+
+**Architecture:**
+- Input: PC/Web, Cloud Drive Data, Mobile App
+- AI Outputs: images, drawings, videos
+- Cross-platform collaboration: real-time, one-click sharing
+
+**Employee-Dedicated Agent:**
+- Personal Space / Team Space / Enterprise Space
+- Integrations: LDAP, SAML, Active Directory, existing enterprise accounts
+
+**Three solutions:**
+
+1. **Seamless Access, Ready to Use**
+   - Create Agents directly in cloud drive with built-in skills + skill marketplace
+   - End-to-end AI collaboration within the drive
+
+2. **Native Enterprise Permission Inheritance**
+   - Reuse AD/LDAP, DingTalk, RAM account systems
+   - Agent permissions match employee permissions automatically
+   - "Agent's permissions follow the employee — go-live in days"
+
+3. **Cross-Platform Collaboration**
+   - Web, desktop, mobile — real-time collaborative editing
+   - One-click sharing for seamless AI output flow
+
+---
+
+### Booth 3: OSS Agent — 24/7 Always-on Intelligent Storage Admin
+- **Product:** OSS (Object Storage Service) Agent
+- **Tagline:** 24/7 Always-on Intelligent Storage Admin
+- **Built on:** Qwen LLM and Core Infrastructure
+
+**Three challenges addressed:**
+
+1. **Difficult Troubleshooting, Tedious Configuration**
+   - Ad-hoc troubleshooting, routine-driven
+   - Complex data catalog, too many pages
+
+2. **Massive Data Retrieval Challenges**
+   - PB-scale data pools
+   - "Needed in a heartbeat" — sub-second retrieval expectation
+
+3. **High Data Processing Complexity**
+   - Image/video processing
+   - Parameter tuning, complex configuration
+   - High cost
+
+**Multi-modal Data Storage & Management Expert — 8 capability nodes:**
+1. Management Config
+2. OLAP Operations
+3. Data Analysis
+4. Anomaly Detection
+5. Cost Analytics
+6. Data Retrieval
+7. Data Replication
+8. Data Recovery
+
+**Foundation:** Qwen Model Family (Qwen 8-32T)
+- Alibaba Storage Foundation
+- Large-scale Computing
+- GPU/CPU Infra
+
+**Three solutions:**
+
+1. **Intelligent QA & Ops**
+   - Natural Language agents + AI-fintech
+   - Covers 90% of daily ops
+   - "25min meeting reduced analysis" — i.e., cuts 25min of analyst time to near-instant
+
+2. **Multimodal Data Storage Management**
+   - Intelligent retrieval for multimodal (audio, video, text)
+   - Efficient AI-powered search
+
+3. **AI Security**
+   - (referenced on the OpenTrek slide)
+   - Credential sandbox, sparse scheduling for agent isolation
+
+---
+
 ## References
 - [Qwen Conference 2026 — YouTube Stream](https://www.youtube.com/watch?v=r99c3sfgkmc)
 - [Alibaba Cloud Blog — Exhibition Highlights](https://www.alibabacloud.com/blog/qwen-conference-2026-a-first-look-at-the-exhibition-highlights_603119)
