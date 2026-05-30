@@ -5,6 +5,8 @@ date: 2026-05-28
 
 # LLM Model Comparison — AI Software Engineer POV
 
+**Related:** Individual model notes — [[Qwen-3.7-Max-Model-Summary]] · [[DeepSeek-V3.2-Model-Summary]] · [[Claude-Opus-4.8-Model-Summary]] · [[OpenAI-GPT-5.5-Model-Summary]] · [[Qwen-Conference-2026-Singapore]] (Qwen 3.7 announcement context)
+
 **Date:** May 2026  
 **Models Compared:** Qwen 3.7 Max, DeepSeek V3.2, Claude Opus 4.8, OpenAI GPT-5.5
 
@@ -159,3 +161,17 @@ The LLM landscape in May 2026 has crystallized into three distinct tiers:
 4. **GPT-5.5** — most mature ecosystem, best general-purpose API tooling, solid coding agent. The default choice if you don't want to think about it.
 
 **For a working AI software engineer:** Qwen 3.7 Max for agentic coding tasks, Claude Opus 4.8 for reliability-critical review and orchestration, DeepSeek V3.2 for cost-sensitive or on-prem workloads. GPT-5.5 as the safe general-purpose fallback.
+
+---
+
+## Cross-Note Connections
+
+> See individual model notes for bidirectional links: [[Qwen-3.7-Max-Model-Summary]] · [[DeepSeek-V3.2-Model-Summary]] · [[Claude-Opus-4.8-Model-Summary]] · [[OpenAI-GPT-5.5-Model-Summary]] · [[Qwen-Conference-2026-Singapore]]
+
+### Key Relationships
+
+- **Qwen 3.7 Max ↔ Qwen Conference 2026:** The conference is where Qwen 3.7 was announced; both reference the same 35h kernel demo (TH Chip case study at conference, full technical breakdown in model note)
+- **Qwen ↔ DeepSeek:** Both Chinese labs with different strategies — Qwen proprietary + benchmarks, DeepSeek open weights + cost
+- **Claude ↔ OpenAI:** Western flaghships with different philosophies — Claude emphasizes honesty + subagent orchestration, OpenAI emphasizes Codex CLI ecosystem
+- **Claude ↔ DeepSeek:** Most interesting contrast in agent architectures — parallel subagent Dynamic Workflows (Claude) vs. thinking-inside-tool-use (DeepSeek)
+- **Conference note → Model notes:** The three exhibition products (OpenTrek, CDE Agent, OSS Agent) are real-world deployments of Qwen 3.7's agentic capabilities

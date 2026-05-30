@@ -5,6 +5,8 @@ date: 2026-05-28
 
 # Claude Opus 4.8 — Model Summary
 
+**Related:** [[LLM-Model-Comparison-May-2026]] (benchmarks, decision matrix) · [[DeepSeek-V3.2-Model-Summary]] (alternative for reasoning) · [[OpenAI-GPT-5.5-Model-Summary]] (alternative for ecosystem)
+
 **Release Date:** May 28, 2026  
 **Source:** [Anthropic News](https://www.anthropic.com/news/claude-opus-4-8)  
 **Developer:** Anthropic  
@@ -93,3 +95,14 @@ Working toward providing Opus-class capabilities at lower cost.
 - **Dynamic Workflows** changes the game for large codebase tasks — massively parallel subagent orchestration
 - **Cost reduction** (3× cheaper fast mode) makes Opus 4.8 viable for higher-volume production workloads
 - Claude Mythos (above-Opus intelligence) is weeks away — if you need the absolute ceiling, worth waiting for
+
+---
+
+## Cross-Note Connections
+
+| From | To | Connection |
+|------|----|-----------|
+| [[Claude-Opus-4.8-Model-Summary]] | [[Qwen-3.7-Max-Model-Summary]] | Both target coding agent use cases; Qwen leads benchmarks, Claude leads on honesty + Dynamic Workflows |
+| [[Claude-Opus-4.8-Model-Summary]] | [[DeepSeek-V3.2-Model-Summary]] | Different agent philosophies: Claude = parallel subagent orchestration, DeepSeek = thinking-inside-tool-use |
+| [[Claude-Opus-4.8-Model-Summary]] | [[OpenAI-GPT-5.5-Model-Summary]] | Both Western flagship models; Claude leads on honesty, OpenAI leads on Codex CLI ecosystem |
+| [[Claude-Opus-4.8-Model-Summary]] | [[LLM-Model-Comparison-May-2026]] | Decision matrix: Claude recommended for code review, agentic orchestration, and "unknown/any" use case |

@@ -5,6 +5,8 @@ date: 2026-05-19
 
 # Qwen 3.7 Max — Model Summary
 
+**Related:** [[Qwen-Conference-2026-Singapore]] (announcement event, same 35h kernel demo) · [[LLM-Model-Comparison-May-2026]] (all benchmarks sourced here)
+
 **Release Date:** May 19, 2026  
 **Source:** [Qwen Blog](https://qwen.ai/blog?id=qwen3.7)  
 **Developer:** Alibaba Cloud  
@@ -83,3 +85,15 @@ Autonomous optimization of an "Extend Attention" kernel on T-Head ZW-M890 PPUs (
 - Sustained long-horizon reasoning is the standout differentiator — 10x speedup on novel hardware is unprecedented
 - Cross-harness generalization means it transfers well to non-standard frameworks
 - Primarily Chinese-language trained but leads on multilingual benchmarks too
+
+---
+
+## Cross-Note Connections
+
+| From | To | Connection |
+|------|----|-----------|
+| [[Qwen-3.7-Max-Model-Summary]] | [[Qwen-Conference-2026-Singapore]] | Same model; conference is where Qwen 3.7 was announced; 35h kernel demo at both |
+| [[Qwen-3.7-Max-Model-Summary]] | [[LLM-Model-Comparison-May-2026]] | All benchmarks and decision matrix sourced from this comparison page |
+| [[Qwen-3.7-Max-Model-Summary]] | [[Claude-Opus-4.8-Model-Summary]] | Both compete on coding + agentic; Qwen leads benchmarks, Claude leads on honesty + Dynamic Workflows |
+| [[Qwen-3.7-Max-Model-Summary]] | [[DeepSeek-V3.2-Model-Summary]] | Both Chinese labs; Qwen leads on coding benchmarks, DeepSeek wins on open weights + cost |
+| [[Qwen-3.7-Max-Model-Summary]] | [[OpenAI-GPT-5.5-Model-Summary]] | Both compete on Terminal-Bench; Qwen leads raw score, GPT-5.5 has better ecosystem tooling |

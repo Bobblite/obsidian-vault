@@ -5,6 +5,8 @@ date: 2026-05-26
 
 # DeepSeek V3.2 — Model Summary
 
+**Related:** [[LLM-Model-Comparison-May-2026]] (competitive benchmarks, decision matrix) · [[Qwen-3.7-Max-Model-Summary]] (alternative for coding agent) · [[Claude-Opus-4.8-Model-Summary]] (alternative for code review)
+
 **Release Date:** December 1, 2025  
 **Source:** [DeepSeek API Docs](https://api-docs.deepseek.com/news/news251201)  
 **Developer:** DeepSeek AI  
@@ -118,3 +120,14 @@ response = client.chat.completions.create(
 - V3.2 standard for production agent tasks where token efficiency matters
 - Open weights means you can run locally for fine-tuning or on-premise deployment
 - Still the most cost-effective frontier-adjacent model via API
+
+---
+
+## Cross-Note Connections
+
+| From | To | Connection |
+|------|----|-----------|
+| [[DeepSeek-V3.2-Model-Summary]] | [[Qwen-3.7-Max-Model-Summary]] | Both Chinese labs competing on coding agent; DeepSeek wins open weights, Qwen wins benchmarks |
+| [[DeepSeek-V3.2-Model-Summary]] | [[Claude-Opus-4.8-Model-Summary]] | Different agent philosophies: DeepSeek = thinking inside tool-use, Claude = parallel subagent Dynamic Workflows |
+| [[DeepSeek-V3.2-Model-Summary]] | [[OpenAI-GPT-5.5-Model-Summary]] | Both offer thinking/reasoning modes; DeepSeek has open weights, OpenAI has Codex CLI ecosystem |
+| [[DeepSeek-V3.2-Model-Summary]] | [[LLM-Model-Comparison-May-2026]] | Decision matrix places DeepSeek as best open source + most cost-effective |

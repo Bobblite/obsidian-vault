@@ -6,6 +6,8 @@ source: Qwen Conference 2026, Singapore (Sands Expo)
 
 # Qwen Conference 2026 — Singapore
 
+**Related:** [[Qwen-3.7-Max-Model-Summary]] (model details + benchmarks) · [[LLM-Model-Comparison-May-2026]] (model placed in competitive context)
+
 ## Event Details
 - **Date:** May 26, 2026
 - **Location:** Sands Expo, Singapore (first international Qwen Conference)
@@ -80,6 +82,8 @@ Full-stack: Foundation Models → Agent Apps → Cloud Native → Services → S
 ---
 
 ## Exhibition Floor — Booth/Product Details
+
+> **Context:** These three products (OpenTrek, CDE Agent, OSS Agent) are all built on Qwen models — see [[Qwen-3.7-Max-Model-Summary]] for the underlying model capabilities, and [[LLM-Model-Comparison-May-2026]] for how Qwen compares to competitors in agentic tasks.
 
 ### Booth 1: Enterprise-Grade One-Stop Model-as-a-Service Platform (OpenTrek)
 - **Company:** Alibaba Cloud
@@ -220,6 +224,20 @@ Full-stack: Foundation Models → Agent Apps → Cloud Native → Services → S
 3. **AI Security**
    - (referenced on the OpenTrek slide)
    - Credential sandbox, sparse scheduling for agent isolation
+
+---
+
+## Cross-Note Connections
+
+| From | To | Connection |
+|------|----|-----------|
+| [[Qwen-Conference-2026-Singapore]] | [[Qwen-3.7-Max-Model-Summary]] | Same model (Qwen 3.7) announced at conference; same 35h kernel demo referenced in both |
+| [[Qwen-Conference-2026-Singapore]] | [[LLM-Model-Comparison-May-2026]] | Conference products (OpenTrek, CDE, OSS Agent) illustrate real-world agent deployments; comparison page provides competitive framing |
+| [[Qwen-3.7-Max-Model-Summary]] | [[DeepSeek-V3.2-Model-Summary]] | Both compete on coding agent + tool-use; DeepSeek wins on open weights, Qwen wins on benchmarks |
+| [[Qwen-3.7-Max-Model-Summary]] | [[Claude-Opus-4.8-Model-Summary]] | Both target coding agent use cases; Qwen leads on benchmarks, Claude leads on honesty + Dynamic Workflows |
+| [[Claude-Opus-4.8-Model-Summary]] | [[DeepSeek-V3.2-Model-Summary]] | Different agent philosophies: Claude = parallel subagent orchestration, DeepSeek = thinking-inside-tool-use |
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[Qwen-3.7-Max-Model-Summary]] | Both compete on coding benchmarks; GPT-5.5 leads ecosystem, Qwen leads raw performance |
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[Claude-Opus-4.8-Model-Summary]] | Both are Western flagship models; Claude leads on honesty, OpenAI leads on Codex CLI ecosystem |
 
 ---
 

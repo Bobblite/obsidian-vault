@@ -5,6 +5,8 @@ date: 2026-05-28
 
 # OpenAI GPT-5.5 — Model Summary
 
+**Related:** [[LLM-Model-Comparison-May-2026]] (competitive context) · [[Claude-Opus-4.8-Model-Summary]] (alternative for code review) · [[Qwen-3.7-Max-Model-Summary]] (alternative for coding agent)
+
 **Release Date:** May 28, 2026 (Instant Update); GPT-5.4 Thinking launched March 5, 2026  
 **Source:** [OpenAI Help Center — Model Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes)  
 **Developer:** OpenAI  
@@ -88,3 +90,14 @@ GPT-5.5 consolidates Canvas functionality directly into chat:
 - GPT-5.5's agentic coding improvements make it the default choice for code generation and complex CLI workflows
 - If you were using o3 for heavy reasoning, migrate to GPT-5.4/GPT-5.5 Thinking before August retirement
 - For production API workloads, audit deprecated model string references (GPT-4o retired Feb 2026)
+
+---
+
+## Cross-Note Connections
+
+| From | To | Connection |
+|------|----|-----------|
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[Qwen-3.7-Max-Model-Summary]] | Both compete on coding benchmarks; GPT-5.5 leads ecosystem, Qwen leads raw performance |
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[Claude-Opus-4.8-Model-Summary]] | Both Western flagship models; Claude leads on honesty, OpenAI leads on Codex CLI ecosystem |
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[DeepSeek-V3.2-Model-Summary]] | Both offer reasoning modes; DeepSeek has open weights, OpenAI has more mature API ecosystem |
+| [[OpenAI-GPT-5.5-Model-Summary]] | [[LLM-Model-Comparison-May-2026]] | Decision matrix: GPT-5.5 recommended as safe general-purpose fallback + best ecosystem |
